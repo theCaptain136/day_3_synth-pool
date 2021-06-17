@@ -81,3 +81,5 @@ char **my_strtok(char *str, char delim);
 void print(fridge *fridg);
 void make_pasta(fridge *f);
 void make_pizza(fridge *f);
+fridge *boot_fridge();
+void save_at_exit(fridge *fridg);
